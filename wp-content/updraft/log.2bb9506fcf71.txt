@@ -1,0 +1,529 @@
+0000.001 (0) Opened log file at time: Thu, 30 Mar 2023 09:05:54 +0000 on http://localhost/goshopping
+0000.007 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.3 WP: 6.1.1 PHP: 8.0.25 (apache2handler, Windows NT DESKTOP-V25TRFA 10.0 build 22621 (Windows 10) AMD64) MySQL: 10.4.27-MariaDB (max packet size=1048576) WPLANG: fr_FR Server: Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.0.25 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 92.1M | 94M) multisite: N openssl: OpenSSL 1.1.1q  5 Jul 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.015 (0) Free space on disk containing Updraft's temporary directory: 426028 MB
+0000.021 (0) Tasks: Backup files: 1 (schedule: monthly) Backup DB:  (schedule: monthly)
+0000.024 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.059 (0) Semaphore (fd, wp_goshoppingoptions) being initialised
+0000.097 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.106 (0) Set semaphore last lock (fd) time to 2023-03-30 09:05:54
+0000.109 (0) Semaphore lock (fd) complete
+0000.118 (0) Backup run: resumption=0, nonce=2bb9506fcf71, file_nonce=2bb9506fcf71 begun at=1680167154 (0s ago), job type=backup
+0000.124 (0) Scheduling a resumption (1) after 300 seconds (1680167454) in case this run gets aborted
+0000.248 (0) Checking if we have a zip executable available
+0000.259 (0) Creation of backups of directories: beginning
+0000.270 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0009.878 (0) Total entities for the zip file: 1909 directories, 9816 files (0 skipped as non-modified), 126 MB
+0009.891 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.2 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0010.253 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 100 files added (on-disk size: 434.4 KB)
+0010.333 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 200 files added (on-disk size: 434.4 KB)
+0010.400 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 300 files added (on-disk size: 434.4 KB)
+0010.456 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 400 files added (on-disk size: 434.4 KB)
+0010.504 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 500 files added (on-disk size: 434.4 KB)
+0010.525 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 9816 files batched, 538 (539) added so far); re-opening (prior size: 434.4 KB)
+0018.750 (0) A useful amount of data was added after this amount of zip processing: 8.9 s (normalised: 8.9 s, rate: 2881.5 KB/s)
+0018.795 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 600 files added (on-disk size: 7913.7 KB)
+0018.831 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 700 files added (on-disk size: 7913.7 KB)
+0018.866 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 800 files added (on-disk size: 7913.7 KB)
+0018.900 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 900 files added (on-disk size: 7913.7 KB)
+0018.933 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 1000 files added (on-disk size: 7913.7 KB)
+0018.971 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 1100 files added (on-disk size: 7913.7 KB)
+0019.004 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 1200 files added (on-disk size: 7913.7 KB)
+0019.038 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 1300 files added (on-disk size: 7913.7 KB)
+0019.071 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 1400 files added (on-disk size: 7913.7 KB)
+0019.104 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 1500 files added (on-disk size: 7913.7 KB)
+0019.120 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (11.8 MB, 9816 files batched, 1001 (1540) added so far); re-opening (prior size: 7913.7 KB)
+0028.265 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 1600 files added (on-disk size: 11551.5 KB)
+0028.296 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 1700 files added (on-disk size: 11551.5 KB)
+0028.329 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 1800 files added (on-disk size: 11551.5 KB)
+0028.362 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 1900 files added (on-disk size: 11551.5 KB)
+0028.394 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 2000 files added (on-disk size: 11551.5 KB)
+0028.425 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 2100 files added (on-disk size: 11551.5 KB)
+0028.456 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 2200 files added (on-disk size: 11551.5 KB)
+0028.488 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 2300 files added (on-disk size: 11551.5 KB)
+0028.532 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 2400 files added (on-disk size: 11551.5 KB)
+0028.571 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 2500 files added (on-disk size: 11551.5 KB)
+0028.589 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (24.5 MB, 9816 files batched, 1001 (2541) added so far); re-opening (prior size: 11551.5 KB)
+0040.495 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 2600 files added (on-disk size: 18626 KB)
+0040.530 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 2700 files added (on-disk size: 18626 KB)
+0040.562 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 2800 files added (on-disk size: 18626 KB)
+0040.594 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 2900 files added (on-disk size: 18626 KB)
+0040.627 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 3000 files added (on-disk size: 18626 KB)
+0040.660 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 3100 files added (on-disk size: 18626 KB)
+0040.691 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 3200 files added (on-disk size: 18626 KB)
+0040.722 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 3300 files added (on-disk size: 18626 KB)
+0040.752 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 3400 files added (on-disk size: 18626 KB)
+0040.784 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 3500 files added (on-disk size: 18626 KB)
+0040.798 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (11.2 MB, 9816 files batched, 1001 (3542) added so far); re-opening (prior size: 18626 KB)
+0048.540 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 3600 files added (on-disk size: 22575 KB)
+0048.575 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 3700 files added (on-disk size: 22575 KB)
+0048.610 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 3800 files added (on-disk size: 22575 KB)
+0048.644 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 3900 files added (on-disk size: 22575 KB)
+0048.682 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 4000 files added (on-disk size: 22575 KB)
+0048.714 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 4100 files added (on-disk size: 22575 KB)
+0048.750 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 4200 files added (on-disk size: 22575 KB)
+0048.781 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 4300 files added (on-disk size: 22575 KB)
+0048.815 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 4400 files added (on-disk size: 22575 KB)
+0048.847 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 4500 files added (on-disk size: 22575 KB)
+0048.863 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (10.9 MB, 9816 files batched, 1001 (4543) added so far); re-opening (prior size: 22575 KB)
+0059.109 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 4600 files added (on-disk size: 25371.9 KB)
+0059.145 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 4700 files added (on-disk size: 25371.9 KB)
+0059.184 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 4800 files added (on-disk size: 25371.9 KB)
+0059.221 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 4900 files added (on-disk size: 25371.9 KB)
+0059.257 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 5000 files added (on-disk size: 25371.9 KB)
+0059.291 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 5100 files added (on-disk size: 25371.9 KB)
+0059.325 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 5200 files added (on-disk size: 25371.9 KB)
+0059.365 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 5300 files added (on-disk size: 25371.9 KB)
+0059.408 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 5400 files added (on-disk size: 25371.9 KB)
+0059.446 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 5500 files added (on-disk size: 25371.9 KB)
+0059.472 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (1.9 MB, 9816 files batched, 1001 (5544) added so far); re-opening (prior size: 25371.9 KB)
+0066.004 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 5600 files added (on-disk size: 26424.7 KB)
+0066.070 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 5700 files added (on-disk size: 26424.7 KB)
+0066.117 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 5800 files added (on-disk size: 26424.7 KB)
+0066.161 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 5900 files added (on-disk size: 26424.7 KB)
+0066.206 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 6000 files added (on-disk size: 26424.7 KB)
+0066.273 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 6100 files added (on-disk size: 26424.7 KB)
+0066.336 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 6200 files added (on-disk size: 26424.7 KB)
+0066.390 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 6300 files added (on-disk size: 26424.7 KB)
+0066.464 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 6400 files added (on-disk size: 26424.7 KB)
+0066.536 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 6500 files added (on-disk size: 26424.7 KB)
+0066.562 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (7.4 MB, 9816 files batched, 1001 (6545) added so far); re-opening (prior size: 26424.7 KB)
+0072.973 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 6600 files added (on-disk size: 29021.6 KB)
+0073.007 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 6700 files added (on-disk size: 29021.6 KB)
+0073.040 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 6800 files added (on-disk size: 29021.6 KB)
+0073.072 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 6900 files added (on-disk size: 29021.6 KB)
+0073.105 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 7000 files added (on-disk size: 29021.6 KB)
+0073.136 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 7100 files added (on-disk size: 29021.6 KB)
+0073.168 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 7200 files added (on-disk size: 29021.6 KB)
+0073.199 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 7300 files added (on-disk size: 29021.6 KB)
+0073.231 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 7400 files added (on-disk size: 29021.6 KB)
+0073.263 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 7500 files added (on-disk size: 29021.6 KB)
+0073.279 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (4.8 MB, 9816 files batched, 1001 (7546) added so far); re-opening (prior size: 29021.6 KB)
+0081.072 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 7600 files added (on-disk size: 30473.8 KB)
+0081.104 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 7700 files added (on-disk size: 30473.8 KB)
+0081.136 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 7800 files added (on-disk size: 30473.8 KB)
+0081.167 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 7900 files added (on-disk size: 30473.8 KB)
+0081.199 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 8000 files added (on-disk size: 30473.8 KB)
+0081.231 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 8100 files added (on-disk size: 30473.8 KB)
+0081.264 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 8200 files added (on-disk size: 30473.8 KB)
+0081.296 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 8300 files added (on-disk size: 30473.8 KB)
+0081.330 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 8400 files added (on-disk size: 30473.8 KB)
+0081.363 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 8500 files added (on-disk size: 30473.8 KB)
+0081.379 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (11.7 MB, 9816 files batched, 1001 (8547) added so far); re-opening (prior size: 30473.8 KB)
+0088.355 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 8600 files added (on-disk size: 33998.3 KB)
+0088.388 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 8700 files added (on-disk size: 33998.3 KB)
+0088.421 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 8800 files added (on-disk size: 33998.3 KB)
+0088.453 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 8900 files added (on-disk size: 33998.3 KB)
+0088.484 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 9000 files added (on-disk size: 33998.3 KB)
+0088.529 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 9100 files added (on-disk size: 33998.3 KB)
+0088.590 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 9200 files added (on-disk size: 33998.3 KB)
+0088.652 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 9300 files added (on-disk size: 33998.3 KB)
+0088.724 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 9400 files added (on-disk size: 33998.3 KB)
+0088.800 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 9500 files added (on-disk size: 33998.3 KB)
+0088.850 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (14.4 MB, 9816 files batched, 1001 (9548) added so far); re-opening (prior size: 33998.3 KB)
+0097.394 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 9600 files added (on-disk size: 40425.8 KB)
+0097.525 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 9700 files added (on-disk size: 40425.8 KB)
+0097.683 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.tmp: 9800 files added (on-disk size: 40425.8 KB)
+0101.959 (0) Creating zip file manifest (backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.list-temp.tmp)
+0101.993 (0) Successfully created zip file manifest (size: 880512)
+0102.331 (0) Created plugins zip (0) - 41156.3 KB in 102.1 s (403.3 KB/s) (sha1: 45fb20887bb976f3e154203ee83b10d06f299137, sha256: 47b4cc09bc78f53611bfe7d608a405282a55fc81c1eae07da44f9034880aef38)
+0102.347 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0102.350 (0) No remote despatch: user chose no remote backup service
+0102.353 (0) Recording as successfully uploaded: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip
+0102.359 (0) Deleting zip manifest (backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip.list.tmp)
+0102.365 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0102.368 (0) Number of backup sets in history: 0; groups (db): 1
+0102.370 (0) Number of backup sets in history: 0; groups (files): 1
+0102.372 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0102.392 (0) Beginning creation of dump of themes (split every: 400 MB)
+0103.026 (0) Total entities for the zip file: 217 directories, 1163 files (0 skipped as non-modified), 33.4 MB
+0103.059 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0103.095 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0103.130 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0103.163 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0103.195 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0103.227 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0103.260 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0103.292 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0103.325 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0103.354 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.5 MB, 1163 files batched, 990 (990) added so far); re-opening (prior size: 0 KB)
+0113.889 (0) A useful amount of data was added after this amount of zip processing: 12 s (normalised: 11.8 s, rate: 2170.2 KB/s)
+0113.907 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-themes.zip.tmp: 1000 files added (on-disk size: 10509.3 KB)
+0113.948 (0) Zip: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-themes.zip.tmp: 1100 files added (on-disk size: 10509.3 KB)
+0115.478 (0) Creating zip file manifest (backup_2023-03-30-1105_GoShopping_2bb9506fcf71-themes.zip.list-temp.tmp)
+0115.486 (0) Successfully created zip file manifest (size: 82378)
+0115.638 (0) Created themes zip (0) - 17854.7 KB in 13.2 s (1348.6 KB/s) (sha1: 1e18321496f996bedcc44a4e7d844ecbedbc6269, sha256: e89b5951cab987f6f75853e852c0da5588a4a62a5b45113e5a5e899d1de6cb42)
+0115.650 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0115.653 (0) No remote despatch: user chose no remote backup service
+0115.656 (0) Recording as successfully uploaded: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-themes.zip
+0115.661 (0) Deleting zip manifest (backup_2023-03-30-1105_GoShopping_2bb9506fcf71-themes.zip.list.tmp)
+0115.666 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0115.669 (0) Number of backup sets in history: 0; groups (db): 1
+0115.672 (0) Number of backup sets in history: 0; groups (files): 1
+0115.674 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0115.686 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0115.688 (0) Looking for candidates to backup in: C:\xampp\htdocs\goshopping/wp-content/uploads
+0115.691 (0) finding files: 2023: adding to list (1)
+0115.693 (0) finding files: elementor: adding to list (2)
+0115.696 (0) finding files: wc-logs: adding to list (3)
+0115.698 (0) finding files: woocommerce-placeholder.png: adding to list (4)
+0115.701 (0) finding files: woocommerce_uploads: adding to list (5)
+0115.703 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0115.721 (0) Total entities for the zip file: 5 directories, 22 files (0 skipped as non-modified), 1.1 MB
+0115.778 (0) Creating zip file manifest (backup_2023-03-30-1105_GoShopping_2bb9506fcf71-uploads.zip.list-temp.tmp)
+0115.783 (0) Successfully created zip file manifest (size: 966)
+0115.806 (0) Created uploads zip (0) - 1112.8 KB in 0.1 s (11584.1 KB/s) (sha1: 6964987123c00e45d6998bf593ae5b6a5b7eb591, sha256: 5f8abd9e4cad4ff6fe49cfb3ddb948791cc5684e77218fd7711fd8998d3d6063)
+0115.817 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0115.820 (0) No remote despatch: user chose no remote backup service
+0115.823 (0) Recording as successfully uploaded: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-uploads.zip
+0115.829 (0) Deleting zip manifest (backup_2023-03-30-1105_GoShopping_2bb9506fcf71-uploads.zip.list.tmp)
+0115.834 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0115.837 (0) Number of backup sets in history: 0; groups (db): 1
+0115.839 (0) Number of backup sets in history: 0; groups (files): 1
+0115.842 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0115.855 (0) Beginning backup of other directories found in the content directory (index: 0)
+0115.857 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0115.859 (0) Looking for candidates to backup in: C:\xampp\htdocs\goshopping/wp-content
+0115.863 (0) finding files: cache: skipping: excluded by options
+0115.865 (0) finding files: index.php: adding to list (1)
+0115.868 (0) finding files: languages: adding to list (2)
+0115.870 (0) finding files: plugins: skipping: this is the plugins directory
+0115.872 (0) finding files: themes: skipping: this is the themes directory
+0115.875 (0) finding files: updraft: skipping: this is the updraft directory
+0115.878 (0) finding files: upgrade: skipping: excluded by options
+0115.880 (0) finding files: uploads: skipping: this is the uploads directory
+0115.902 (0) Total entities for the zip file: 3 directories, 70 files (0 skipped as non-modified), 2.9 MB
+0116.448 (0) Creating zip file manifest (backup_2023-03-30-1105_GoShopping_2bb9506fcf71-others.zip.list-temp.tmp)
+0116.453 (0) Successfully created zip file manifest (size: 4181)
+0116.473 (0) Created others zip (0) - 797.5 KB in 0.6 s (1360.3 KB/s) (sha1: 678f22284b69f9080ca95ce4ed2af4b33f85fd74, sha256: 269b8ae914e1028109be41e4cb733e10963148c2e448ac96595e373f90b4cc53)
+0116.484 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0116.487 (0) No remote despatch: user chose no remote backup service
+0116.490 (0) Recording as successfully uploaded: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-others.zip
+0116.495 (0) Deleting zip manifest (backup_2023-03-30-1105_GoShopping_2bb9506fcf71-others.zip.list.tmp)
+0116.501 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0116.504 (0) Number of backup sets in history: 0; groups (db): 1
+0116.507 (0) Number of backup sets in history: 0; groups (files): 1
+0116.510 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0116.526 (0) Saving backup status to database (elements: 8)
+0116.532 (0) Beginning creation of database dump (WordPress DB)
+0116.535 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0116.721 (0) Table wp_goshoppingoptions: Total expected rows (via COUNT): 513
+0116.751 (0) Table wp_goshoppingoptions: Rows added in this batch (next record: 1202): 509 (uncompressed bytes in this segment=1223563) in 0.06 seconds
+0116.768 (0) Table wp_goshoppingoptions: finishing file(s) (2, 154.2 KB)
+0116.782 (0) Table wp_goshoppingusers: Total expected rows (via COUNT): 1
+0116.784 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0116.788 (0) Table wp_goshoppingusers: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1254) in 0.01 seconds
+0116.798 (0) Table wp_goshoppingusers: finishing file(s) (2, 0.6 KB)
+0116.812 (0) Table wp_goshoppingusermeta: Total expected rows (via COUNT): 26
+0116.815 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0116.822 (0) Table wp_goshoppingusermeta: Rows added in this batch (next record: 26): 26 (uncompressed bytes in this segment=12057) in 0.02 seconds
+0116.835 (0) Table wp_goshoppingusermeta: finishing file(s) (2, 3 KB)
+0116.849 (0) Table wp_goshoppingactionscheduler_actions: Total expected rows (via COUNT): 66
+0116.851 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0116.857 (0) Table wp_goshoppingactionscheduler_actions: Rows added in this batch (next record: 71): 66 (uncompressed bytes in this segment=24562) in 0.01 seconds
+0116.869 (0) Table wp_goshoppingactionscheduler_actions: finishing file(s) (2, 2.5 KB)
+0116.884 (0) Table wp_goshoppingactionscheduler_claims: Total expected rows (via COUNT): 0
+0116.890 (0) Table wp_goshoppingactionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.01 seconds
+0116.899 (0) Table wp_goshoppingactionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0116.910 (0) Table wp_goshoppingactionscheduler_groups: Total expected rows (via COUNT): 4
+0116.912 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0116.917 (0) Table wp_goshoppingactionscheduler_groups: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=800) in 0.01 seconds
+0116.928 (0) Table wp_goshoppingactionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0116.939 (0) Table wp_goshoppingactionscheduler_logs: Total expected rows (via COUNT): 192
+0116.941 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0116.948 (0) Table wp_goshoppingactionscheduler_logs: Rows added in this batch (next record: 192): 192 (uncompressed bytes in this segment=17234) in 0.01 seconds
+0116.958 (0) Table wp_goshoppingactionscheduler_logs: finishing file(s) (2, 2.2 KB)
+0116.975 (0) Table wp_goshoppingcommentmeta: Total expected rows (via COUNT): 0
+0116.981 (0) Table wp_goshoppingcommentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=694) in 0.01 seconds
+0116.992 (0) Table wp_goshoppingcommentmeta: finishing file(s) (2, 0.4 KB)
+0117.006 (0) Table wp_goshoppingcomments: Total expected rows (via COUNT): 1
+0117.009 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0117.015 (0) Table wp_goshoppingcomments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2107) in 0.01 seconds
+0117.024 (0) Table wp_goshoppingcomments: finishing file(s) (2, 0.8 KB)
+0117.047 (0) Table wp_goshoppinglinks: Total expected rows (via COUNT): 0
+0117.052 (0) Table wp_goshoppinglinks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1087) in 0.01 seconds
+0117.061 (0) Table wp_goshoppinglinks: finishing file(s) (2, 0.5 KB)
+0117.078 (0) Table wp_goshoppingpostmeta: Total expected rows (via COUNT): 330
+0117.080 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0117.087 (0) Table wp_goshoppingpostmeta: Rows added in this batch (next record: 345): 330 (uncompressed bytes in this segment=22519) in 0.02 seconds
+0117.100 (0) Table wp_goshoppingpostmeta: finishing file(s) (2, 3.8 KB)
+0117.118 (0) Table wp_goshoppingposts: Total expected rows (via COUNT): 42
+0117.120 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0117.127 (0) Table wp_goshoppingposts: Rows added in this batch (next record: 42): 42 (uncompressed bytes in this segment=38059) in 0.02 seconds
+0117.138 (0) Table wp_goshoppingposts: finishing file(s) (2, 9.3 KB)
+0117.149 (0) Table wp_goshoppingterm_relationships: Total expected rows (approximate): 22
+0117.154 (0) Table wp_goshoppingterm_relationships: Rows added in this batch (next record: 100000): 23 (uncompressed bytes in this segment=1068) in 0.01 seconds
+0117.163 (0) Table wp_goshoppingterm_relationships: finishing file(s) (2, 0.5 KB)
+0117.178 (0) Table wp_goshoppingterm_taxonomy: Total expected rows (via COUNT): 24
+0117.180 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0117.184 (0) Table wp_goshoppingterm_taxonomy: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1844) in 0.01 seconds
+0117.195 (0) Table wp_goshoppingterm_taxonomy: finishing file(s) (2, 0.6 KB)
+0117.210 (0) Table wp_goshoppingtermmeta: Total expected rows (via COUNT): 11
+0117.212 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0117.215 (0) Table wp_goshoppingtermmeta: Rows added in this batch (next record: 11): 11 (uncompressed bytes in this segment=1095) in 0.01 seconds
+0117.226 (0) Table wp_goshoppingtermmeta: finishing file(s) (2, 0.5 KB)
+0117.236 (0) Table wp_goshoppingterms: Total expected rows (via COUNT): 24
+0117.238 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0117.241 (0) Table wp_goshoppingterms: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1575) in 0.01 seconds
+0117.250 (0) Table wp_goshoppingterms: finishing file(s) (2, 0.7 KB)
+0117.273 (0) Table wp_goshoppingwc_category_lookup: Total expected rows (approximate): 0
+0117.285 (0) Table wp_goshoppingwc_category_lookup: Rows added in this batch (next record: 1000): 7 (uncompressed bytes in this segment=725) in 0.02 seconds
+0117.294 (0) Table wp_goshoppingwc_category_lookup: finishing file(s) (2, 0.4 KB)
+0117.311 (0) Table wp_goshoppingwc_product_meta_lookup: Total expected rows (via COUNT): 12
+0117.314 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0117.320 (0) Table wp_goshoppingwc_product_meta_lookup: Rows added in this batch (next record: 41): 12 (uncompressed bytes in this segment=2523) in 0.01 seconds
+0117.330 (0) Table wp_goshoppingwc_product_meta_lookup: finishing file(s) (2, 0.7 KB)
+0117.348 (0) Table wp_goshoppingwc_reserved_stock: Total expected rows (approximate): 0
+0117.353 (0) Table wp_goshoppingwc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=723) in 0.01 seconds
+0117.363 (0) Table wp_goshoppingwc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0117.375 (0) Table wp_goshoppingwc_tax_rate_classes: Total expected rows (via COUNT): 2
+0117.377 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0117.383 (0) Table wp_goshoppingwc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=820) in 0.01 seconds
+0117.393 (0) Table wp_goshoppingwc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0117.411 (0) Table wp_goshoppingwoocommerce_order_itemmeta: Total expected rows (via COUNT): 0
+0117.416 (0) Table wp_goshoppingwoocommerce_order_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=782) in 0.01 seconds
+0117.430 (0) Table wp_goshoppingwoocommerce_order_itemmeta: finishing file(s) (2, 0.4 KB)
+0117.448 (0) Table wp_goshoppingwoocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0117.451 (0) Table wp_goshoppingwoocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=809) in 0.01 seconds
+0117.470 (0) Table wp_goshoppingwoocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0117.489 (0) Table wp_goshoppinge_events: Total expected rows (via COUNT): 0
+0117.496 (0) Table wp_goshoppinge_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=571) in 0.01 seconds
+0117.505 (0) Table wp_goshoppinge_events: finishing file(s) (2, 0.4 KB)
+0117.522 (0) Table wp_goshoppingwc_admin_note_actions: Total expected rows (via COUNT): 47
+0117.524 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0117.530 (0) Table wp_goshoppingwc_admin_note_actions: Rows added in this batch (next record: 434): 47 (uncompressed bytes in this segment=8754) in 0.02 seconds
+0117.544 (0) Table wp_goshoppingwc_admin_note_actions: finishing file(s) (2, 2 KB)
+0117.560 (0) Table wp_goshoppingwc_admin_notes: Total expected rows (via COUNT): 38
+0117.563 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0117.566 (0) Table wp_goshoppingwc_admin_notes: Rows added in this batch (next record: 38): 38 (uncompressed bytes in this segment=19332) in 0.01 seconds
+0117.579 (0) Table wp_goshoppingwc_admin_notes: finishing file(s) (2, 5 KB)
+0117.593 (0) Table wp_goshoppingwc_customer_lookup: Total expected rows (via COUNT): 0
+0117.598 (0) Table wp_goshoppingwc_customer_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1078) in 0.01 seconds
+0117.608 (0) Table wp_goshoppingwc_customer_lookup: finishing file(s) (2, 0.5 KB)
+0117.621 (0) Table wp_goshoppingwc_download_log: Total expected rows (via COUNT): 0
+0117.624 (0) Table wp_goshoppingwc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=776) in 0.01 seconds
+0117.635 (0) Table wp_goshoppingwc_download_log: finishing file(s) (2, 0.4 KB)
+0117.647 (0) Table wp_goshoppingwc_order_coupon_lookup: Total expected rows (approximate): 0
+0117.650 (0) Table wp_goshoppingwc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=775) in 0.01 seconds
+0117.659 (0) Table wp_goshoppingwc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0117.673 (0) Table wp_goshoppingwc_order_product_lookup: Total expected rows (via COUNT): 0
+0117.676 (0) Table wp_goshoppingwc_order_product_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1275) in 0.01 seconds
+0117.686 (0) Table wp_goshoppingwc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+0117.699 (0) Table wp_goshoppingwc_order_stats: Total expected rows (via COUNT): 0
+0117.702 (0) Table wp_goshoppingwc_order_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1252) in 0.01 seconds
+0117.712 (0) Table wp_goshoppingwc_order_stats: finishing file(s) (2, 0.5 KB)
+0117.726 (0) Table wp_goshoppingwc_order_tax_lookup: Total expected rows (approximate): 0
+0117.729 (0) Table wp_goshoppingwc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=853) in 0.01 seconds
+0117.738 (0) Table wp_goshoppingwc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0117.753 (0) Table wp_goshoppingwc_product_attributes_lookup: Total expected rows (approximate): 6
+0117.755 (0) Table wp_goshoppingwc_product_attributes_lookup: Rows added in this batch (next record: 1000): 6 (uncompressed bytes in this segment=1152) in 0.01 seconds
+0117.764 (0) Table wp_goshoppingwc_product_attributes_lookup: finishing file(s) (2, 0.5 KB)
+0117.778 (0) Table wp_goshoppingwc_product_download_directories: Total expected rows (via COUNT): 2
+0117.780 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0117.785 (0) Table wp_goshoppingwc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=957) in 0.01 seconds
+0117.794 (0) Table wp_goshoppingwc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0117.808 (0) Table wp_goshoppingwc_rate_limits: Total expected rows (via COUNT): 0
+0117.812 (0) Table wp_goshoppingwc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=727) in 0.01 seconds
+0117.821 (0) Table wp_goshoppingwc_rate_limits: finishing file(s) (2, 0.4 KB)
+0117.835 (0) Table wp_goshoppingwc_webhooks: Total expected rows (via COUNT): 0
+0117.838 (0) Table wp_goshoppingwc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1131) in 0.01 seconds
+0117.847 (0) Table wp_goshoppingwc_webhooks: finishing file(s) (2, 0.5 KB)
+0117.864 (0) Table wp_goshoppingwoocommerce_api_keys: Total expected rows (via COUNT): 0
+0117.866 (0) Table wp_goshoppingwoocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=933) in 0.01 seconds
+0117.879 (0) Table wp_goshoppingwoocommerce_api_keys: finishing file(s) (2, 0.5 KB)
+0117.896 (0) Table wp_goshoppingwoocommerce_attribute_taxonomies: Total expected rows (via COUNT): 1
+0117.899 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0117.903 (0) Table wp_goshoppingwoocommerce_attribute_taxonomies: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1030) in 0.01 seconds
+0117.912 (0) Table wp_goshoppingwoocommerce_attribute_taxonomies: finishing file(s) (2, 0.5 KB)
+0117.927 (0) Table wp_goshoppingwoocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0117.931 (0) Table wp_goshoppingwoocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1470) in 0.01 seconds
+0117.941 (0) Table wp_goshoppingwoocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0117.961 (0) Table wp_goshoppingwoocommerce_log: Total expected rows (via COUNT): 0
+0117.963 (0) Table wp_goshoppingwoocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=702) in 0.01 seconds
+0117.974 (0) Table wp_goshoppingwoocommerce_log: finishing file(s) (2, 0.4 KB)
+0117.988 (0) Table wp_goshoppingwoocommerce_order_items: Total expected rows (via COUNT): 0
+0117.991 (0) Table wp_goshoppingwoocommerce_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=737) in 0.01 seconds
+0117.999 (0) Table wp_goshoppingwoocommerce_order_items: finishing file(s) (2, 0.4 KB)
+0118.013 (0) Table wp_goshoppingwoocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0118.016 (0) Table wp_goshoppingwoocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=804) in 0.01 seconds
+0118.025 (0) Table wp_goshoppingwoocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0118.040 (0) Table wp_goshoppingwoocommerce_sessions: Total expected rows (via COUNT): 1
+0118.042 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0118.047 (0) Table wp_goshoppingwoocommerce_sessions: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2901) in 0.01 seconds
+0118.059 (0) Table wp_goshoppingwoocommerce_sessions: finishing file(s) (2, 1.1 KB)
+0118.077 (0) Table wp_goshoppingwoocommerce_shipping_zone_locations: Total expected rows (via COUNT): 1
+0118.081 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0118.084 (0) Table wp_goshoppingwoocommerce_shipping_zone_locations: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=985) in 0.02 seconds
+0118.094 (0) Table wp_goshoppingwoocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0118.109 (0) Table wp_goshoppingwoocommerce_shipping_zone_methods: Total expected rows (via COUNT): 1
+0118.111 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0118.115 (0) Table wp_goshoppingwoocommerce_shipping_zone_methods: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=919) in 0.01 seconds
+0118.127 (0) Table wp_goshoppingwoocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0118.142 (0) Table wp_goshoppingwoocommerce_shipping_zones: Total expected rows (via COUNT): 1
+0118.144 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0118.147 (0) Table wp_goshoppingwoocommerce_shipping_zones: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=760) in 0.01 seconds
+0118.156 (0) Table wp_goshoppingwoocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0118.169 (0) Table wp_goshoppingwoocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0118.175 (0) Table wp_goshoppingwoocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=846) in 0.01 seconds
+0118.184 (0) Table wp_goshoppingwoocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0118.196 (0) Table wp_goshoppingwoocommerce_tax_rates: Total expected rows (via COUNT): 0
+0118.199 (0) Table wp_goshoppingwoocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1202) in 0.01 seconds
+0118.209 (0) Table wp_goshoppingwoocommerce_tax_rates: finishing file(s) (2, 0.5 KB)
+0118.226 (0) Table wp_goshoppingwpforms_tasks_meta: Total expected rows (via COUNT): 1
+0118.228 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0118.235 (0) Table wp_goshoppingwpforms_tasks_meta: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=748) in 0.02 seconds
+0118.248 (0) Table wp_goshoppingwpforms_tasks_meta: finishing file(s) (2, 0.4 KB)
+0118.265 (0) Table wp_goshoppingyoast_indexable: Total expected rows (via COUNT): 19
+0118.267 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0118.271 (0) Table wp_goshoppingyoast_indexable: Rows added in this batch (next record: 19): 19 (uncompressed bytes in this segment=12943) in 0.01 seconds
+0118.284 (0) Table wp_goshoppingyoast_indexable: finishing file(s) (2, 2.7 KB)
+0118.308 (0) Table wp_goshoppingyoast_indexable_hierarchy: Total expected rows (approximate): 17
+0118.326 (0) Table wp_goshoppingyoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 18 (uncompressed bytes in this segment=1150) in 0.02 seconds
+0118.337 (0) Table wp_goshoppingyoast_indexable_hierarchy: finishing file(s) (2, 0.5 KB)
+0118.364 (0) Table wp_goshoppingyoast_migrations: Total expected rows (via COUNT): 23
+0118.368 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0118.375 (0) Table wp_goshoppingyoast_migrations: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=1299) in 0.02 seconds
+0118.387 (0) Table wp_goshoppingyoast_migrations: finishing file(s) (2, 0.6 KB)
+0118.401 (0) Table wp_goshoppingyoast_primary_term: Total expected rows (via COUNT): 1
+0118.403 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0118.406 (0) Table wp_goshoppingyoast_primary_term: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1037) in 0.01 seconds
+0118.416 (0) Table wp_goshoppingyoast_primary_term: finishing file(s) (2, 0.5 KB)
+0118.430 (0) Table wp_goshoppingyoast_seo_links: Total expected rows (via COUNT): 0
+0118.435 (0) Table wp_goshoppingyoast_seo_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1065) in 0.01 seconds
+0118.444 (0) Table wp_goshoppingyoast_seo_links: finishing file(s) (2, 0.4 KB)
+0118.447 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\xampp\htdocs\goshopping/wp-content/updraft/backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db.gz (line 1924, C:\xampp\htdocs\goshopping\wp-content\plugins\updraftplus\backup.php)
+0118.451 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingoptions.table.tmpr1203.gz (1/53/fopen): adding to final database dump
+0118.457 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingoptions.table.gz (2/53/fopen): adding to final database dump
+0118.460 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingusers.table.tmpr2.gz (3/53/fopen): adding to final database dump
+0118.463 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingusers.table.gz (4/53/fopen): adding to final database dump
+0118.466 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingusermeta.table.tmpr27.gz (5/53/fopen): adding to final database dump
+0118.469 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingusermeta.table.gz (6/53/fopen): adding to final database dump
+0118.473 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingactionscheduler_actions.table.tmpr72.gz (7/53/fopen): adding to final database dump
+0118.476 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingactionscheduler_actions.table.gz (8/53/fopen): adding to final database dump
+0118.478 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingactionscheduler_claims.table.tmpr0.gz (9/53/fopen): adding to final database dump
+0118.480 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingactionscheduler_claims.table.gz (10/53/fopen): adding to final database dump
+0118.483 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingactionscheduler_groups.table.tmpr5.gz (11/53/fopen): adding to final database dump
+0118.485 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingactionscheduler_groups.table.gz (12/53/fopen): adding to final database dump
+0118.487 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingactionscheduler_logs.table.tmpr193.gz (13/53/fopen): adding to final database dump
+0118.490 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingactionscheduler_logs.table.gz (14/53/fopen): adding to final database dump
+0118.492 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingcommentmeta.table.tmpr0.gz (15/53/fopen): adding to final database dump
+0118.494 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingcommentmeta.table.gz (16/53/fopen): adding to final database dump
+0118.496 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingcomments.table.tmpr2.gz (17/53/fopen): adding to final database dump
+0118.498 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingcomments.table.gz (18/53/fopen): adding to final database dump
+0118.501 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppinglinks.table.tmpr0.gz (19/53/fopen): adding to final database dump
+0118.503 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppinglinks.table.gz (20/53/fopen): adding to final database dump
+0118.505 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingpostmeta.table.tmpr346.gz (21/53/fopen): adding to final database dump
+0118.512 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingpostmeta.table.gz (22/53/fopen): adding to final database dump
+0118.521 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingposts.table.tmpr43.gz (23/53/fopen): adding to final database dump
+0118.524 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingposts.table.gz (24/53/fopen): adding to final database dump
+0118.526 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingterm_relationships.table.tmpr100001.gz (25/53/fopen): adding to final database dump
+0118.529 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingterm_relationships.table.gz (26/53/fopen): adding to final database dump
+0118.532 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingterm_taxonomy.table.tmpr25.gz (27/53/fopen): adding to final database dump
+0118.535 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingterm_taxonomy.table.gz (28/53/fopen): adding to final database dump
+0118.537 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingtermmeta.table.tmpr12.gz (29/53/fopen): adding to final database dump
+0118.540 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingtermmeta.table.gz (30/53/fopen): adding to final database dump
+0118.544 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingterms.table.tmpr25.gz (31/53/fopen): adding to final database dump
+0118.547 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingterms.table.gz (32/53/fopen): adding to final database dump
+0118.549 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwc_category_lookup.table.tmpr1001.gz (33/53/fopen): adding to final database dump
+0118.552 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwc_category_lookup.table.gz (34/53/fopen): adding to final database dump
+0118.555 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwc_product_meta_lookup.table.tmpr42.gz (35/53/fopen): adding to final database dump
+0118.557 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwc_product_meta_lookup.table.gz (36/53/fopen): adding to final database dump
+0118.559 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwc_reserved_stock.table.tmpr1.gz (37/53/fopen): adding to final database dump
+0118.561 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwc_reserved_stock.table.gz (38/53/fopen): adding to final database dump
+0118.563 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwc_tax_rate_classes.table.tmpr3.gz (39/53/fopen): adding to final database dump
+0118.566 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwc_tax_rate_classes.table.gz (40/53/fopen): adding to final database dump
+0118.568 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwoocommerce_order_itemmeta.table.tmpr0.gz (41/53/fopen): adding to final database dump
+0118.571 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwoocommerce_order_itemmeta.table.gz (42/53/fopen): adding to final database dump
+0118.573 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwoocommerce_payment_tokenmeta.table.tmpr0.gz (43/53/fopen): adding to final database dump
+0118.575 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwoocommerce_payment_tokenmeta.table.gz (44/53/fopen): adding to final database dump
+0118.577 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppinge_events.table.tmpr0.gz (45/53/fopen): adding to final database dump
+0118.579 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppinge_events.table.gz (46/53/fopen): adding to final database dump
+0118.581 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwc_admin_note_actions.table.tmpr435.gz (47/53/fopen): adding to final database dump
+0118.583 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwc_admin_note_actions.table.gz (48/53/fopen): adding to final database dump
+0118.586 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwc_admin_notes.table.tmpr39.gz (49/53/fopen): adding to final database dump
+0118.588 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwc_admin_notes.table.gz (50/53/fopen): adding to final database dump
+0118.590 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwc_customer_lookup.table.tmpr0.gz (51/53/fopen): adding to final database dump
+0118.592 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwc_customer_lookup.table.gz (52/53/fopen): adding to final database dump
+0118.594 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwc_download_log.table.tmpr0.gz (53/53/fopen): adding to final database dump
+0118.596 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwc_download_log.table.gz (54/53/fopen): adding to final database dump
+0118.598 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwc_order_coupon_lookup.table.tmpr1.gz (55/53/fopen): adding to final database dump
+0118.601 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwc_order_coupon_lookup.table.gz (56/53/fopen): adding to final database dump
+0118.603 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwc_order_product_lookup.table.tmpr0.gz (57/53/fopen): adding to final database dump
+0118.605 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwc_order_product_lookup.table.gz (58/53/fopen): adding to final database dump
+0118.607 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwc_order_stats.table.tmpr0.gz (59/53/fopen): adding to final database dump
+0118.609 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwc_order_stats.table.gz (60/53/fopen): adding to final database dump
+0118.611 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwc_order_tax_lookup.table.tmpr1.gz (61/53/fopen): adding to final database dump
+0118.614 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwc_order_tax_lookup.table.gz (62/53/fopen): adding to final database dump
+0118.616 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwc_product_attributes_lookup.table.tmpr1001.gz (63/53/fopen): adding to final database dump
+0118.618 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwc_product_attributes_lookup.table.gz (64/53/fopen): adding to final database dump
+0118.620 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwc_product_download_directories.table.tmpr3.gz (65/53/fopen): adding to final database dump
+0118.622 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwc_product_download_directories.table.gz (66/53/fopen): adding to final database dump
+0118.624 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwc_rate_limits.table.tmpr0.gz (67/53/fopen): adding to final database dump
+0118.626 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwc_rate_limits.table.gz (68/53/fopen): adding to final database dump
+0118.628 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwc_webhooks.table.tmpr0.gz (69/53/fopen): adding to final database dump
+0118.630 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwc_webhooks.table.gz (70/53/fopen): adding to final database dump
+0118.633 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwoocommerce_api_keys.table.tmpr0.gz (71/53/fopen): adding to final database dump
+0118.635 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwoocommerce_api_keys.table.gz (72/53/fopen): adding to final database dump
+0118.637 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwoocommerce_attribute_taxonomies.table.tmpr2.gz (73/53/fopen): adding to final database dump
+0118.639 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwoocommerce_attribute_taxonomies.table.gz (74/53/fopen): adding to final database dump
+0118.641 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwoocommerce_downloadable_product_permissions.table.tmpr0.gz (75/53/fopen): adding to final database dump
+0118.644 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwoocommerce_downloadable_product_permissions.table.gz (76/53/fopen): adding to final database dump
+0118.646 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwoocommerce_log.table.tmpr0.gz (77/53/fopen): adding to final database dump
+0118.648 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwoocommerce_log.table.gz (78/53/fopen): adding to final database dump
+0118.651 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwoocommerce_order_items.table.tmpr0.gz (79/53/fopen): adding to final database dump
+0118.653 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwoocommerce_order_items.table.gz (80/53/fopen): adding to final database dump
+0118.655 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwoocommerce_payment_tokens.table.tmpr0.gz (81/53/fopen): adding to final database dump
+0118.657 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwoocommerce_payment_tokens.table.gz (82/53/fopen): adding to final database dump
+0118.659 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwoocommerce_sessions.table.tmpr2.gz (83/53/fopen): adding to final database dump
+0118.662 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwoocommerce_sessions.table.gz (84/53/fopen): adding to final database dump
+0118.664 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwoocommerce_shipping_zone_locations.table.tmpr2.gz (85/53/fopen): adding to final database dump
+0118.666 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwoocommerce_shipping_zone_locations.table.gz (86/53/fopen): adding to final database dump
+0118.668 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwoocommerce_shipping_zone_methods.table.tmpr2.gz (87/53/fopen): adding to final database dump
+0118.670 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwoocommerce_shipping_zone_methods.table.gz (88/53/fopen): adding to final database dump
+0118.673 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwoocommerce_shipping_zones.table.tmpr2.gz (89/53/fopen): adding to final database dump
+0118.675 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwoocommerce_shipping_zones.table.gz (90/53/fopen): adding to final database dump
+0118.677 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwoocommerce_tax_rate_locations.table.tmpr0.gz (91/53/fopen): adding to final database dump
+0118.679 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwoocommerce_tax_rate_locations.table.gz (92/53/fopen): adding to final database dump
+0118.681 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwoocommerce_tax_rates.table.tmpr0.gz (93/53/fopen): adding to final database dump
+0118.684 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwoocommerce_tax_rates.table.gz (94/53/fopen): adding to final database dump
+0118.686 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwpforms_tasks_meta.table.tmpr2.gz (95/53/fopen): adding to final database dump
+0118.689 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingwpforms_tasks_meta.table.gz (96/53/fopen): adding to final database dump
+0118.692 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingyoast_indexable.table.tmpr20.gz (97/53/fopen): adding to final database dump
+0118.695 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingyoast_indexable.table.gz (98/53/fopen): adding to final database dump
+0118.697 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingyoast_indexable_hierarchy.table.tmpr1001.gz (99/53/fopen): adding to final database dump
+0118.702 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingyoast_indexable_hierarchy.table.gz (100/53/fopen): adding to final database dump
+0118.704 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingyoast_migrations.table.tmpr24.gz (101/53/fopen): adding to final database dump
+0118.706 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingyoast_migrations.table.gz (102/53/fopen): adding to final database dump
+0118.708 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingyoast_primary_term.table.tmpr2.gz (103/53/fopen): adding to final database dump
+0118.711 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingyoast_primary_term.table.gz (104/53/fopen): adding to final database dump
+0118.713 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingyoast_seo_links.table.tmpr0.gz (105/53/fopen): adding to final database dump
+0118.715 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db-table-wp_goshoppingyoast_seo_links.table.gz (106/53/fopen): adding to final database dump
+0118.747 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db.gz: finished writing out complete database file (205.4 KB)
+0118.768 (0) Total database tables backed up: 53 (backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db.gz, size: 210396, sha1: 4f4f9dfc07b1c4f281d533858ee112e29276c5ca, sha256: b5486df5115655caf0e571d24d81102a66d7553dba6335dad9ec12063d9c2535)
+0118.778 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-plugins.zip: plugins: This file has already been successfully uploaded
+0118.780 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-themes.zip: themes: This file has already been successfully uploaded
+0118.783 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-uploads.zip: uploads: This file has already been successfully uploaded
+0118.785 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-others.zip: others: This file has already been successfully uploaded
+0118.787 (0) backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db.gz: db: This file has not yet been successfully uploaded: will queue
+0118.789 (0) Saving backup history. Total backup size: 59.7 MB
+0118.794 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0118.801 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0118.812 (0) No remote despatch: user chose no remote backup service
+0118.814 (0) Recording as successfully uploaded: backup_2023-03-30-1105_GoShopping_2bb9506fcf71-db.gz
+0118.821 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0118.823 (0) Number of backup sets in history: 1; groups (db): 1
+0118.825 (0) Examining (for databases) backup set with group_id=0, nonce=2bb9506fcf71, datestamp=1680167154 (Mar 30 2023 09:05:54)
+0118.827 (0) This backup set is the backup set just made, so will not be deleted.
+0118.827 (0) Number of backup sets in history: 1; groups (files): 1
+0118.829 (0) Examining (for files) backup set with nonce=2bb9506fcf71, datestamp=1680167154 (Mar 30 2023 09:05:54)
+0118.829 (0) This backup set is the backup set just made, so will not be deleted.
+0118.831 (0) This backup set is the backup set just made, so will not be deleted.
+0118.831 (0) This backup set is the backup set just made, so will not be deleted.
+0118.831 (0) This backup set is the backup set just made, so will not be deleted.
+0118.831 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0118.832 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0118.837 (0) Resume backup (2bb9506fcf71, 0): finish run
+0118.844 (0) Decremented the semaphore (fd) by 1
+0118.847 (0) Semaphore (fd) unlocked
+0118.849 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0118.856 (0) No email will/can be sent - the user has not configured an email address.
+0118.858 (0) The backup apparently succeeded and is now complete
